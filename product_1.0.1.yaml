@@ -14,7 +14,7 @@ plans:
     apis:
       api1.0.1: {}
 apis:
-  api1.0.0:
+  api1.0.1:
     $ref: ./api_1.0.1.yaml
 visibility:
   view:
@@ -27,4 +27,4 @@ visibility:
     orgs: []
     tags: []
     enabled: true
-product: 1.0.0
+product: 1.0.1
