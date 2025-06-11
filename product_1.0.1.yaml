@@ -15,7 +15,7 @@ plans:
       api1.0.0: {}
 apis:
   api1.0.0:
-    $ref: ./api_1.0.0.yaml
+    $ref: ./api_1.0.1.yaml
 visibility:
   view:
     type: public
