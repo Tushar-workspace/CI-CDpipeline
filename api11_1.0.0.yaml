@@ -1,12 +1,7 @@
 swagger: '2.0'
 info:
-<<<<<<< HEAD:api2_1.0.0.yaml
-  title: API2
-  x-ibm-name: api2
-=======
-  title: API10
-  x-ibm-name: api10
->>>>>>> commitmernt:api10_1.0.0.yaml
+  title: API11
+  x-ibm-name: api11
   version: 1.0.0
 x-ibm-configuration:
   cors:
@@ -28,11 +23,7 @@ x-ibm-configuration:
       value: http://example.com/operation-name
       description: The URL of the target service
       encoded: false
-<<<<<<< HEAD:api2_1.0.0.yaml
-basePath: /api2
-=======
-basePath: /api10
->>>>>>> commitmernt:api10_1.0.0.yaml
+basePath: /api11
 paths:
   /:
     get:

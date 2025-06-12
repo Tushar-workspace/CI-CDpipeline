@@ -1,12 +1,7 @@
 info:
   version: 1.0.0
-<<<<<<< HEAD:product2_1.0.0.yaml
-  title: Product2
-  name: product2
-=======
-  title: Product11
-  name: product11
->>>>>>> commitmernt:product11_1.0.0.yaml
+  title: Product10
+  name: product10
 gateways:
   - datapower-api-gateway
 plans:
@@ -17,17 +12,13 @@ plans:
       default:
         value: 100/1hour
     apis:
-<<<<<<< HEAD:product2_1.0.0.yaml
-      api21.0.0: {}
-apis:
-  api21.0.0:
-    $ref: ./api2_1.0.0.yaml
-=======
+      api101.0.0: {}
       api111.0.0: {}
 apis:
+  api101.0.0:
+    $ref: ./api10_1.0.0.yaml
   api111.0.0:
     $ref: ./api11_1.0.0.yaml
->>>>>>> commitmernt:product11_1.0.0.yaml
 visibility:
   view:
     type: public
